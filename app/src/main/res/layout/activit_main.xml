@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="236dp"
+            android:layout_height="624dp"
+            android:layout_marginStart="84dp"
+
+            android:src="@drawable/grey_circle"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="-77dp"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:text="Welcome back!"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="377dp"></TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:layout_marginEnd="100dp"
+            android:layout_marginStart="100dp"
+            android:hint="Username"
+
+
+
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="426dp"></EditText>
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:layout_marginEnd="100dp"
+            android:layout_marginStart="100dp"
+            android:ems="10"
+
+
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            android:hint="Password"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="469dp" />
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="176dp"
+            android:background="@color/black"
+
+            app:layout_constraintStart_toStartOf="parent"
+
+android:text="sign in"
+            android:textColor="@color/white"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="523dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="144dp"
+            android:text="New here? Sign up!"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="594dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
